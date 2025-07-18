@@ -6,7 +6,7 @@ export function useRecuperarFilmesPorSlugGenero(slugGenero: string) {
   return useQuery<Filme[]>({
     queryKey: ["filmes", slugGenero],
     queryFn: async () => {
-      const { data } = await api.get(`/catalogo/genero/${slugGenero}`);
+      const { data } = await api.get(`/filmes/genero/${slugGenero}`);
       return data;
     },
   });

@@ -1,5 +1,6 @@
-import { Genero } from "../interfaces/Genero";
-
-export function isGeneroValido(genero: Genero | undefined | null): boolean {
-  return !!genero?.nome?.trim() && !!genero?.slug?.trim();
+export default interface ResultadoPaginado<T> {
+  totalDeItens: number;
+  totalDePaginas: number;
+  paginaCorrente: number;
+  itens: T[];
 }
