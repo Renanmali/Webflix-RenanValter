@@ -11,6 +11,8 @@ com/RenanMartins/apirestfulv1/dto/ClienteCadastroDTO.class
 com/RenanMartins/apirestfulv1/model/Copia.class
 com/RenanMartins/apirestfulv1/Apirestfulv1Application.class
 com/RenanMartins/apirestfulv1/repository/CopiaRepository.class
+com/RenanMartins/apirestfulv1/config/CorsGlobalConfig$1.class
+com/RenanMartins/apirestfulv1/config/CorsGlobalConfig.class
 com/RenanMartins/apirestfulv1/service/CarrinhoService.class
 com/RenanMartins/apirestfulv1/exception/RegraNegocioException.class
 com/RenanMartins/apirestfulv1/model/Carrinho.class

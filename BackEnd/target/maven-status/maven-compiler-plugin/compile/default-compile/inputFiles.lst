@@ -1,4 +1,5 @@
 /home/renanmartins/Downloads/WebFlix-FinalVersion-4rwl7i-codex-implementar-locadora-online-com-requisitos-especificados/BackEnd/src/main/java/com/RenanMartins/apirestfulv1/Apirestfulv1Application.java
+/home/renanmartins/Downloads/WebFlix-FinalVersion-4rwl7i-codex-implementar-locadora-online-com-requisitos-especificados/BackEnd/src/main/java/com/RenanMartins/apirestfulv1/config/CorsGlobalConfig.java
 /home/renanmartins/Downloads/WebFlix-FinalVersion-4rwl7i-codex-implementar-locadora-online-com-requisitos-especificados/BackEnd/src/main/java/com/RenanMartins/apirestfulv1/controller/AutenticacaoController.java
 /home/renanmartins/Downloads/WebFlix-FinalVersion-4rwl7i-codex-implementar-locadora-online-com-requisitos-especificados/BackEnd/src/main/java/com/RenanMartins/apirestfulv1/controller/CarrinhoController.java
 /home/renanmartins/Downloads/WebFlix-FinalVersion-4rwl7i-codex-implementar-locadora-online-com-requisitos-especificados/BackEnd/src/main/java/com/RenanMartins/apirestfulv1/controller/CatalogoController.java
