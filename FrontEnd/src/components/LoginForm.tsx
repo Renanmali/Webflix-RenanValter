@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { useLocation, useNavigate } from "react-router-dom";
 import loginIcon from "../assets/skin/login.png";
 import { useEfetuarLogin } from "../hooks/useEfetuarLogin";
-import { TokenResponse } from "../interfaces/TokenResponse";
 import { Cliente } from "../interfaces/Cliente";
 import { useClienteStore } from "../store/ClienteStore";
 
