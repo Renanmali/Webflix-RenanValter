@@ -26,7 +26,6 @@ const router = createBrowserRouter([
         ],
       },
       { path: "filmes", element: <FilmesComPaginacaoPage /> },
-      { path: "carrinho", element: <CarrinhoPage /> },
       { path: "cadastrar-filme", element: <CadastrarFilmePage /> },
       { path: "filmes/:id", element: <FilmePage /> },
       { path: "registro", element: <RegistroPage /> },
@@ -35,9 +34,10 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <PrivateRoutes />, 
-    errorElement: <ErrorPage />, 
+    element: <PrivateRoutes />,
+    errorElement: <ErrorPage />,
     children: [
+      { path: "carrinho", element: <CarrinhoPage /> },
       { path: "favoritos", element: <FavoritosPage /> },
     ],
   },
